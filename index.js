@@ -13,6 +13,12 @@
 // console.log(a/b)
 // console.log(a*b)
 
-let a = prompt("Birinchi sonni kiriting")
-let b = prompt("ikkinchi sonni kiriting")
-console.log(+a + +b)
+// let a = prompt("Birinchi sonni kiriting")
+// let b = prompt("ikkinchi sonni kiriting")
+// console.log(+a + +b) /* bu birinchi usul, lekin har doim ham to'g'ri emas */
+
+let a = prompt+("Birinchi sonni kiriting")
+let b=prompt+("Ikkinchi sonni kiriting")
+console.log(a+b) /* yoniga plus qo'yish hal qiladi ba'zida */
+
+
